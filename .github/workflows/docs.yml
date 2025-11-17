@@ -27,3 +27,5 @@ jobs:
       - name: Build project documentation.
         id: build-docgen
         uses: chenson2018/docgen-action@references-input
+        with:
+          references: references.bib
